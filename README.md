@@ -7,6 +7,8 @@ The assessment targets a modern **4-Corner Zonal Architecture with a Central Zon
 ## Item Definition & Architecture Scope
 **System Overview:** The target architecture relies on a Gigabit Ethernet (1000 Base-T1) backbone connecting a Central Zone Computer (CZC) to four location-based Zone Controllers. This architecture introduces complex cybersecurity challenges, particularly **Mixed-Criticality Routing**, where low-security body domains share physical gateways with high-security powertrain/ADAS domains.
 
+<img src="docs/Zonal_Architecture_with_CZC.png" alt="4-Corner Zonal Automotive Architecture" width="600">
+
 ## Highlighted Threat Scenarios
 *(Below are 2 of the 5 detailed threat models. Please refer to the attached Excel workbook for the complete analysis).*
 
@@ -29,7 +31,8 @@ The assessment targets a modern **4-Corner Zonal Architecture with a Central Zon
 **Cybersecurity Goal (Mitigation):** The CZC shall enforce **Secure Boot** and strict asymmetric cryptographic verification (RSA/ECC) of all OTA payloads. The TCU must mandate mutually authenticated TLS 1.3 with the OEM backend to ensure UN R156 compliance.
 
 ## Complete Threat Catalog
-The attached TARA matrix (`TARA_Zonal_Architecture_SDV.xlsx`) contains the full risk assessments, impact calculations, and attack feasibilities for:
+[ Click Here to Download the Complete TARA Excel Workbook](`TARA_Zonal_SDV_Architecture.xlsx`)
+The attached TARA matrix contains the full risk assessments, impact calculations, and attack feasibilities for:
 1. FL-ZC Door-to-Steering Pivot Attack (Highlighted)
 2. CZC Flawed System-Wide OTA Update (Highlighted)
 3. FR-ZC Physical CAN Injection via Exposed ADAS Sensor
@@ -38,8 +41,11 @@ The attached TARA matrix (`TARA_Zonal_Architecture_SDV.xlsx`) contains the full 
 
 ## Methodology & Frameworks
 **Standard:** ISO/SAE 21434 (Road vehicles — Cybersecurity engineering)
+
 **Threat Modeling:** STRIDE
+
 **Risk Calculation:** Impact (Safety, Financial, Operational, Privacy) + Attack Feasibility (Time, Expertise, Knowledge, Opportunity, Equipment).
+
 **Mitigations:** AUTOSAR Crypto Stack, SecOC, Hardware Firewalls, UDS Authentication (Service 0x29).
 
 ---
