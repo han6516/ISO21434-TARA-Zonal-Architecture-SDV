@@ -1,6 +1,6 @@
 # Automotive Cybersecurity TARA: 4-Corner Zonal Architecture (ISO/SAE 21434)
 ## Executive Summary
-As the automotive industry transitions to the **Software-Defined Vehicle (SDV)**, securing the vehicle network is as critical as functional safety (ISO 26262). This repository contains a comprehensive Mock **Threat Analysis and Risk Assessment (TARA)** conducted in accordance with **ISO/SAE 21434**, implementing my learnings from the Udemy certification _‘Practical Guide: ISO 21434, TARA for Automotive Cybersecurity’.
+As the automotive industry transitions to the **Software-Defined Vehicle (SDV)**, securing the vehicle network is as critical as functional safety (ISO 26262). This repository contains a comprehensive Mock **Threat Analysis and Risk Assessment (TARA)** conducted in accordance with **ISO/SAE 21434**, implementing my learnings from the Udemy certification [(‘[Practical Guide: ISO 21434, TARA for Automotive Cybersecurity]')](https://www.udemy.com/share/10cN513@xRNIVJ7SCKM2ge-SCWDwUyvxYIGl80EB_o4jcCpXLz_eihQZQp-QPBfc9Hr1C0Tl/),and with additional supplements from TÜV SÜD and [Rappel Cybersecurity](https://www.youtube.com/@Rappel-Cybersecurity/videos).
 
 The assessment targets a modern **4-Corner Zonal Architecture with a Central Zone Computer (CZC)**, analyzing 5 distinct attack vectors across Physical Edge, Remote/Cloud, Wireless, and Diagnostic interfaces.
 
